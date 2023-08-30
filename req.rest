@@ -1,0 +1,39 @@
+GET http://localhost:5000/user
+
+###
+
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "nama": "abidin",
+    "email": "abidin@gmail.com",
+    "password": "123456",
+    "confirmPassword": "123456",
+    "role": "admin"
+}
+
+###
+
+GET http://localhost:5000/user/4ea39b4b-4f34-41ee-a83b-f6e5d659b82f
+
+###
+
+GET http://localhost:5000/product
+
+###
+
+POST http://localhost:5000/product
+Content-Type: application/json
+
+    {
+        "nama": "Pencil",
+        "price": 2000
+    }
+
+###
+
+GET http://localhost:5000/product/3a58970f-5c4c-4c5b-b666-d16824754a77
+
+###
+
